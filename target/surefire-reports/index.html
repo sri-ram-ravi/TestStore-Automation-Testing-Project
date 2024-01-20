@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="testcases.OpenBrowser" class="method navigator-link" hash-for-method="get_Automation_Testing_Website">get_Automation_Testing_Website</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="testcases.OpenBrowser" class="method navigator-link" hash-for-method="get_Automation_Testing_Website2">get_Automation_Testing_Website2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,6 +143,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="get_Automation_Testing_Website2">
+                  </a> <!-- get_Automation_Testing_Website2 -->
+                  <span class="method-name">get_Automation_Testing_Website2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="teststore_Automation_Testing">
                   </a> <!-- teststore_Automation_Testing -->
                   <span class="method-name">teststore_Automation_Testing</span>
@@ -154,10 +166,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;/home/sriram/Downloads/seleniumJava-20231219T123940Z-001/Live Project 1&quot; verbose=&quot;2&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;/home/sriram/Downloads/seleniumJava-20231219T123940Z-001/Live Project 1&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.OpenBrowser&quot;/&gt;
+      &lt;class name=&quot;testcases.OpenBrowser&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;teststore_Automation_Testing&quot;/&gt;
+          &lt;include name=&quot;get_Automation_Testing_Website&quot;/&gt;
+          &lt;include name=&quot;get_Automation_Testing_Website2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.OpenBrowser --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- /home/sriram/Downloads/seleniumJava-20231219T123940Z-001/Live Project 1 --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -197,20 +215,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'teststore_Automation_Testing')
 data.setCell(0, 2, 'testcases.OpenBrowser')
-data.setCell(0, 3, 6825);
+data.setCell(0, 3, 6897);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'get_Automation_Testing_Website')
+data.setCell(1, 1, 'get_Automation_Testing_Website2')
 data.setCell(1, 2, 'testcases.OpenBrowser')
-data.setCell(1, 3, 3022);
+data.setCell(1, 3, 4061);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'get_Automation_Testing_Website')
+data.setCell(2, 2, 'testcases.OpenBrowser')
+data.setCell(2, 3, 3952);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -237,22 +259,42 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.OpenBrowser</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="configuration-method before">
                 <span class="method-name">setUpBeforeClass</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">get_Automation_Testing_Website</span>
-                <span class="method-start">959 ms</span>
+                <span class="method-start">1098 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">teststore_Automation_Testing</span>
-                <span class="method-start">3984 ms</span>
+                <span class="method-start">1098 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDownAfterClass</span>
-                <span class="method-start">10811 ms</span>
-              </div> <!-- configuration-test after -->
+                <span class="method-start">5053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBeforeClass</span>
+                <span class="method-start">5131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">get_Automation_Testing_Website2</span>
+                <span class="method-start">5501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterClass</span>
+                <span class="method-start">7996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownAfterClass</span>
+                <span class="method-start">9563 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

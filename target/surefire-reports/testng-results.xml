@@ -1,25 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-19T19:26:01 IST" name="All Test Suite" finished-at="2024-01-19T19:26:12 IST" duration-ms="10892">
+  <suite started-at="2024-01-20T15:54:36 IST" name="All Test Suite" finished-at="2024-01-20T15:54:46 IST" duration-ms="9656">
     <groups>
     </groups>
-    <test started-at="2024-01-19T19:26:01 IST" name="/home/sriram/Downloads/seleniumJava-20231219T123940Z-001/Live Project 1" finished-at="2024-01-19T19:26:12 IST" duration-ms="10892">
+    <test started-at="2024-01-20T15:54:36 IST" name="/home/sriram/Downloads/seleniumJava-20231219T123940Z-001/Live Project 1" finished-at="2024-01-20T15:54:46 IST" duration-ms="9656">
       <class name="testcases.OpenBrowser">
-        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:testcases.OpenBrowser@4313f5bc]" started-at="2024-01-19T19:26:01 IST" name="setUpBeforeClass" finished-at="2024-01-19T19:26:02 IST" duration-ms="947" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:36 IST" name="setUpBeforeClass" finished-at="2024-01-20T15:54:37 IST" duration-ms="1097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method signature="get_Automation_Testing_Website()[pri:0, instance:testcases.OpenBrowser@4313f5bc]" started-at="2024-01-19T19:26:02 IST" name="get_Automation_Testing_Website" finished-at="2024-01-19T19:26:05 IST" duration-ms="3022" status="PASS">
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:36 IST" name="setUpBeforeClass" finished-at="2024-01-20T15:54:37 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="get_Automation_Testing_Website()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:37 IST" name="get_Automation_Testing_Website" finished-at="2024-01-20T15:54:41 IST" duration-ms="3952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get_Automation_Testing_Website -->
-        <test-method signature="teststore_Automation_Testing()[pri:0, instance:testcases.OpenBrowser@4313f5bc]" started-at="2024-01-19T19:26:05 IST" name="teststore_Automation_Testing" finished-at="2024-01-19T19:26:12 IST" duration-ms="6825" status="PASS">
+        <test-method signature="teststore_Automation_Testing()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:37 IST" name="teststore_Automation_Testing" finished-at="2024-01-20T15:54:44 IST" duration-ms="6897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teststore_Automation_Testing -->
-        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:testcases.OpenBrowser@4313f5bc]" started-at="2024-01-19T19:26:12 IST" name="tearDownAfterClass" finished-at="2024-01-19T19:26:12 IST" duration-ms="76" status="PASS">
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:41 IST" name="tearDownAfterClass" finished-at="2024-01-20T15:54:41 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method is-config="true" signature="setUpBeforeClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:41 IST" name="setUpBeforeClass" finished-at="2024-01-20T15:54:42 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method signature="get_Automation_Testing_Website2()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:42 IST" name="get_Automation_Testing_Website2" finished-at="2024-01-20T15:54:46 IST" duration-ms="4061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Automation_Testing_Website2 -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:44 IST" name="tearDownAfterClass" finished-at="2024-01-20T15:54:44 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method is-config="true" signature="tearDownAfterClass()[pri:0, instance:testcases.OpenBrowser@61dd025]" started-at="2024-01-20T15:54:46 IST" name="tearDownAfterClass" finished-at="2024-01-20T15:54:46 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAfterClass -->

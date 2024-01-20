@@ -1,11 +1,10 @@
-package testcases;
+package Base;
 
-import driver.Driver;
 import org.testng.annotations.*;
 
 public class BaseTest {
-    @BeforeTest
+    @BeforeMethod
     public void setUpBeforeClass(){Driver.init_Driver();}
-    @AfterTest
+    @AfterMethod
     public void tearDownAfterClass(){Driver.quit_Driver();}
 }
